@@ -66,7 +66,7 @@ def run_alexa():
     elif "message" in command:
         mymessage = command.replace("send message", "")
         time1 = datetime.now().strftime("%H:%M")  # Get current time
-        pywhatkit.sendwhatmsg("+918989835159", mymessage, int(time1[2:3]), int(time1[4:5])+1)  # Send message
+        pywhatkit.sendwhatmsg("+919294860335", mymessage, int(time1[2:3]), int(time1[4:5])+1)  # Send message
         print("Successfully Sent!")
 
     elif "are you single" in command:
